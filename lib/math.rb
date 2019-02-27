@@ -19,9 +19,9 @@ def modulo(num1=34, num2=5)
 end
 
 def square_root(num=81)
-  return .sqrt(num)
+  return sqrt(num)
 end
 
-def order_of_operation(num1, num2, num3, num4)
-  #Hint:  __ + (( __ * __ ) / __ )
+def order_of_operation(num1=7, num2=43, num3=23, num4=83)
+  return num1 + (( num2 * num3 ) / num4 )
 end
