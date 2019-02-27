@@ -19,7 +19,7 @@ def modulo(num1=34, num2=5)
 end
 
 def square_root(num=81)
-  return sqrt(num)
+  return Math.sqrt(num)
 end
 
 def order_of_operation(num1=7, num2=43, num3=23, num4=83)
